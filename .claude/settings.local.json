@@ -2,7 +2,8 @@
   "permissions": {
     "allow": [
       "Bash(npm install:*)",
-      "Bash(php artisan:*)"
+      "Bash(php artisan:*)",
+      "Bash(grep:*)"
     ]
   }
 }
