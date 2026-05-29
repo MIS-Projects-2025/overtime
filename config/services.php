@@ -44,4 +44,8 @@ return [
         'url' => env('PAYROLL_API_URL'),
         'key' => env('PAYROLL_API_KEY'),
     ],
+
+    'authify' => [
+        'base_url' => env('AUTHIFY_BASE_URL'),
+    ],
 ];
