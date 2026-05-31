@@ -25,7 +25,7 @@ class AuthenticationController extends Controller
         $redirectUrl = urlencode(route('dashboard'));
 
         return redirect(
-            "http://192.168.1.12:8306/logout?token={$token}&redirect={$redirectUrl}"
+            config('services.authify.base_url') . "/logout?token={$token}&redirect={$redirectUrl}"
         );
     }
 }
